@@ -1,2 +1,2 @@
 # MultimediayCodigo
-Proyectos de colaboracione y propios
+Proyectos de colaboraciones y propios
