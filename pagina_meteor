@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style1.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <title>Tu meteorologia</title>
+<style>
+
+  </style>
+</head>
+
+<body>
+<div class="cuerpo">
+  </div>
+
+  <body>
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Datos climaticos</a>
+    </div>
+    <ul class="nav navbar-nav">
+
+      <li><a href="#"> <span class="glyphicon glyphicon-bell"></span> acerca de </a></li>
+      <li class="active"><a href="#"><span class="glyphicon glyphicon-earphone"> contacto</a></li>
+
+
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+
+<div class="row">
+  <div class="col-sm-4">
+  <div class="col-sm-8">
+      <ul class="list-group">
+            <form class="navbar-form" role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Buscar" name="q">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
+            </form>
+      <li class="list-group-item">Temperatura</li>
+      <li class="list-group-item">luminosidad</li>
+
+      </ul>
+      <ul class="list-group">
+        <li class="list-group-item">Restaurantes</li>
+        <li class="list-group-item">Hogar</li>
+        <li class="list-group-item">Diversion</li>
+        <li class="list-group-item">Viajes</li>
+        <li class="list-group-item">Carro</li>
+      </ul>
+  </div>
+</div>
+
+
+
+    <button type="button" class="btn btn-primary">obtener informacion climatica</button>
+
+<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">2016
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">mayo</a></li>
+      <li><a href="#">abril</a></li>
+      <li><a href="#">marzo</a></li>
+      <li class="divider"></li>
+      <li><a href="#">About Us</a></li>
+    </ul>
+  </div>
+      <hr>
+
+      <h6><strong>Junio 11 </strong>Gasto <span class="label label-default">Hogar</span></h6><h4>Arriendo</h4>
+      <div class="checkbox">
+          <h5>900000 </h5>
+        <label><input type="checkbox" value="">Editar/eliminar</label>
+      </div>
+        <hr>
+
+          <h6><strong>Junio 10 </strong>Gasto <span class="label label-default">El rincon de mi tierra</span></h6><h4>El rincon de mi tierra</h4>
+          <div class="checkbox">
+          <h5>120000 </h5>
+          <label><input type="checkbox" value="">Editar/eliminar</label>
+      </div>
+
+        <hr>
+          <h6><strong>Junio 11 </strong>Ingreso <span class="label label-default">salario</span></h6><h4>salario</h4>
+          <div class="checkbox">
+          <h5>4500000 </h5>
+          <label><input type="checkbox" value="">Editar/eliminar</label>
+          </div>
+    <div class="row">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Basic</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>20</strong> Lorem</p>
+          <p><strong>15</strong> Ipsum</p>
+          <p><strong>5</strong> Dolor</p>
+          <p><strong>2</strong> Sit</p>
+          <p><strong>Endless</strong> Amet</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$19</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div>      
+    </div>     
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Pro</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>50</strong> Lorem</p>
+          <p><strong>25</strong> Ipsum</p>
+          <p><strong>10</strong> Dolor</p>
+          <p><strong>5</strong> Sit</p>
+          <p><strong>Endless</strong> Amet</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$29</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div>      
+    </div>       
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Premium</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>100</strong> Lorem</p>
+          <p><strong>50</strong> Ipsum</p>
+          <p><strong>25</strong> Dolor</p>
+          <p><strong>10</strong> Sit</p>
+          <p><strong>Endless</strong> Amet</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$49</h3>
+          <h4>per month</h4>
+          <button class="btn btn-lg">Sign Up</button>
+        </div>
+      </div>      
+    </div>    
+  </div>
+</div>
+  
+  </body>
+  </html>
